@@ -1,0 +1,7 @@
+AddAssembleRecipe("dough","/","dough")
+AddAssembleRecipe("tomato_juice","dough")
+AddAssembleRecipe("cooked_chopped_steak","dough,tomato_juice")
+AddAssembleRecipe("cooked_chopped_steak","dough,tomato_juice,cooked_chopped_steak")
+AddAssembleRecipe("cheese_slice","dough,tomato_juice,cooked_chopped_steak,cooked_chopped_steak")
+AddAssembleRecipe("cheese_slice","dough,tomato_juice,cooked_chopped_steak,cooked_chopped_steak,cheese_slice")
+AddAssembleRecipe("cutted_tomato","dough,tomato_juice,cooked_chopped_steak,cooked_chopped_steak,cheese_slice,cheese_slice","raw_pizza", {isFinished = true})

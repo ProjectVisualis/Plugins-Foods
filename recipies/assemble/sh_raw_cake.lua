@@ -1,0 +1,5 @@
+AddAssembleRecipe("sugar","/","sugar")
+AddAssembleRecipe("egg","sugar")
+AddAssembleRecipe("egg","sugar, egg")
+AddAssembleRecipe("milk","sugar, egg, egg")
+AddAssembleRecipe("flour","sugar, egg, egg, milk", {isFinished = true})
